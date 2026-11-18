@@ -5,6 +5,7 @@
 #define WIN32_LEAN_AND_MEAN
 #include <windows.h>
 #include <shellapi.h>
+#include <shlobj.h>
 
 #define WM_TRAY (WM_APP + 10)
 #define WM_BLACK (WM_APP + 11)
